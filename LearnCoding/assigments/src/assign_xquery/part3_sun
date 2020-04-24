@@ -1,0 +1,52 @@
+Q7:
+//说明：doc后面是文件名，这个题目没给文件名，我用tv_series.xml代替了
+let $series := doc("tv_series.xml");
+let $countries :=distinct-values(
+    for $oly in $series/sailing/olympics
+    return $oly/class/medal/country
+)
+
+for $country in $countries
+where count(
+    for $olympic in $series/sailing/olympics
+    where $olympic/class/medal/country = data($country)
+    return $olympic
+)>10
+return $country
+
+Q8
+let $series := doc("tv_series.xml");
+
+let $countOly := count($series/sailing/olympics)
+let $classes :=distinct-values(
+    for $oly in $series/sailing/olympics
+    return $oly/class
+)
+
+for $class in $classes
+where count(
+    for $olympic in $series/sailing/olympics
+    where data($olympic/class/@name) = data($class/@name)
+    return $olympic
+) = $countOly
+return $class
+
+
+Q9
+<!DOCTYPE sailing[
+    <!ELEMENT sailing (olympics*)>
+    <!ELEMENT olympics (class+)>
+        <!ATTLIST olympics
+            year CDATA #REQUIRED
+        >
+    <!ELEMENT class (medal+)>
+        <!ATTLIST class
+            name CDATA #REQUIRED
+        >
+    <!ELEMENT medal (country,sailor+)>
+        <!ATTLIST medal
+            category CDATA #REQUIRED
+        >
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT sailor (#PCDATA)>
+]>

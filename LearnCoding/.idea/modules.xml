@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Book_Algorithms/Book_Algorithms.iml" filepath="$PROJECT_DIR$/Book_Algorithms/Book_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Book_Algorithms/Fundamentals.iml" filepath="$PROJECT_DIR$/Book_Algorithms/Fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnCoding.iml" filepath="$PROJECT_DIR$/LearnCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assigments/assigments.iml" filepath="$PROJECT_DIR$/assigments/assigments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coach/coach.iml" filepath="$PROJECT_DIR$/coach/coach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin/kotlin.iml" filepath="$PROJECT_DIR$/kotlin/kotlin.iml" />
+    </modules>
+  </component>
+</project>
