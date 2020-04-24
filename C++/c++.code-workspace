@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "Dijkstra"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"fstream": "cpp",
+			"stdexcept": "cpp",
+			"string": "cpp",
+			"iosfwd": "cpp",
+			"ostream": "cpp",
+			"istream": "cpp",
+			"*.tcc": "cpp",
+			"vector": "cpp",
+			"ios": "cpp"
+		}
+	}
+}
