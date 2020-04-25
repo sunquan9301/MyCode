@@ -1,11 +1,21 @@
 #include "util.h"
 #include <vector>
+#include<iostream>
+#include<string>
+#include<sstream>
+using namespace std;
 
 bool Util::startWith(const string &str, const string &head)
 {
     return str.compare(0, head.size(), head) == 0;
 }
 
+string Util::itos(int i)
+{
+    stringstream s;
+    s << i;
+    return s.str();
+}
 bool Util::endWith(const string &str, const string &tail)
 {
     return str.compare(str.size() - tail.size(), tail.size(), tail) == 0;

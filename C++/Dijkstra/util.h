@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <fstream>
 #include <iostream>
+#pragma once
 using namespace std;
 class Util
 {
@@ -9,4 +10,5 @@ public:
     static bool endWith(const string &str, const string &tail);
     static bool startWith(const string &str, const string &head);
     static void split(const string &strtem, const char a, vector<string> &res);
+    static string itos(int i); 
 };

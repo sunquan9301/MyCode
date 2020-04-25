@@ -12,19 +12,18 @@ void Graph::addEdge(int v, int w, double weight)
 
 void Graph::toString()
 {
-
     cout << V() << " " << E() << endl;
     for (int i = 1; i <= v; i++)
     {
-        cout << i << ":";
+        cout << i << " : ";
         EdgeNode *p = adj[i].firstedge;
         while (p != nullptr)
         {
             if (p->next == nullptr)
             {
-                cout << "(" << p->w << "," << p->weight << ")";
+                cout << "(" << p->w << ", " << p->weight << ")";
             }else{
-                cout << "(" << p->w << "," << p->weight << ");";
+                cout << "(" << p->w << ", " << p->weight << ");";
             }
             p = p->next;
         }

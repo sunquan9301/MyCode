@@ -2,6 +2,7 @@
 
 void DijkstraSp::init(Graph *G, int s)
 {
+    source = s;
     distTo[s] = 0.0;
     pq.insert(s, 0.0);
     while (!pq.isEmpty())
