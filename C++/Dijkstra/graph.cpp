@@ -20,7 +20,12 @@ void Graph::toString()
         EdgeNode *p = adj[i].firstedge;
         while (p != nullptr)
         {
-            cout << "(" << p->w << "," << p->weight << ");";
+            if (p->next == nullptr)
+            {
+                cout << "(" << p->w << "," << p->weight << ")";
+            }else{
+                cout << "(" << p->w << "," << p->weight << ");";
+            }
             p = p->next;
         }
         cout << endl;

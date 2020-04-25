@@ -14,7 +14,9 @@
 			"istream": "cpp",
 			"*.tcc": "cpp",
 			"vector": "cpp",
-			"ios": "cpp"
+			"ios": "cpp",
+			"new": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }

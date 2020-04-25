@@ -1,0 +1,6 @@
+/Users/sunquan/project/cmake_study/cmakeOption/build/CMakeFiles/rebuild_cache.dir
+/Users/sunquan/project/cmake_study/cmakeOption/build/CMakeFiles/edit_cache.dir
+/Users/sunquan/project/cmake_study/cmakeOption/build/CMakeFiles/mystudy.dir
+/Users/sunquan/project/cmake_study/cmakeOption/build/MathFunctions/CMakeFiles/rebuild_cache.dir
+/Users/sunquan/project/cmake_study/cmakeOption/build/MathFunctions/CMakeFiles/edit_cache.dir
+/Users/sunquan/project/cmake_study/cmakeOption/build/MathFunctions/CMakeFiles/myfuns.dir

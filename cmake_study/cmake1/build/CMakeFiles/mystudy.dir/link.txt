@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Os -Werror -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/mystudy.dir/tutorial.cc.o  -o mystudy  libmyfuns.a 

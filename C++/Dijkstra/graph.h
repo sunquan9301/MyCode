@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#pragma once
 typedef struct EdgeNode
 {
     int v;
@@ -24,7 +25,7 @@ public:
     {
         v = mV;
         m = mM;
-        adj = new AdjList[v + 1];
+        adj = new AdjList[v+1];
         for (int i = 1; i <= v; i++)
         {
             adj[i].firstedge = nullptr;

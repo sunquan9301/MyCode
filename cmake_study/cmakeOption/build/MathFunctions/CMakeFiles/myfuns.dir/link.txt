@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmyfuns.a  CMakeFiles/myfuns.dir/mysqrt.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmyfuns.a

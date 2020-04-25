@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sunquan/project/cmake_study/cmake1/mysqrt.h
+
+/Users/sunquan/project/cmake_study/cmake1/tutorial.cc
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+TutorialConfig.h
+/Users/sunquan/project/cmake_study/cmake1/TutorialConfig.h
+mysqrt.h
+/Users/sunquan/project/cmake_study/cmake1/mysqrt.h
+
+TutorialConfig.h
+

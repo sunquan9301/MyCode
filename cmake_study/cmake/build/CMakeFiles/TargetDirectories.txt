@@ -1,0 +1,3 @@
+/Users/sunquan/project/cmake/build/CMakeFiles/rebuild_cache.dir
+/Users/sunquan/project/cmake/build/CMakeFiles/edit_cache.dir
+/Users/sunquan/project/cmake/build/CMakeFiles/cmake.dir

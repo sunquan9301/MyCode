@@ -15,6 +15,7 @@
           "${workspaceFolder}/main.cpp",
           "${workspaceFolder}/heap.cpp",
           "${workspaceFolder}/util.cpp",
+          "${workspaceFolder}/dijkstraSp.cpp",
           "-o",
           "${fileDirname}/${fileBasenameNoExtension}"
         ],
