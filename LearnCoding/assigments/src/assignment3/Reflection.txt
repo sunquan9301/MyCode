@@ -31,7 +31,7 @@ The System include the following class:
      The class to specific execure commands and synchronize share variable. all other class
      will interact with agenda.
 
-6. AAddB.Main: the entrance of System.
+6. AAddB.StackSort.Main: the entrance of System.
 
 The running process is:
 1.fork the QuestProducer to produce quest

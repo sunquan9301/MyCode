@@ -5,30 +5,32 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        Stack<Integer> right = new Stack<>();
+        int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            right.push(in.nextInt());
+            arr[i] = in.nextInt();
         }
-        stackSort(right);
-
+        maxMatrix(arr);
     }
 
-    public static void stackSort(Stack<Integer> right) {
-        if (right.isEmpty()) return;
-        Stack<Integer> left = new Stack<>();
-        while (!right.isEmpty()) {
-            if (left.isEmpty() || left.peek() >= right.peek()) {
-                left.push(right.pop());
+    public static void maxMatrix(int[] arr) {
+        Stack<Integer> stack = new Stack<Integer>();
+        int maxResult = 0;
+        int i = 0;
+        while (i < arr.length) {
+            if (stack.isEmpty() || arr[stack.peek()] <= arr[i]) {
+                stack.push(i);
+                i++;
             } else {
-                int top = right.pop();
-                while (!left.isEmpty() && left.peek() < top) {
-                    right.push(left.pop());
-                }
-                left.push(top);
+                int hi = arr[stack.pop()];
+//                System.out.println("hi = " + hi + ";right = " + i + ";left = " + (stack.isEmpty() ? -1 : stack.peek()) + ";rect = " + ((i - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
+                maxResult = Math.max(maxResult, ((i - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
             }
         }
-        while (!left.isEmpty()) {
-            System.out.println(left.pop());
+        while (!stack.isEmpty()) {
+            int hi = arr[stack.pop()];
+//            System.out.println("hi = "+hi+";right = "+arr.length+";left = "+(stack.isEmpty() ? -1 : stack.peek())+";rect = "+((arr.length - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
+            maxResult = Math.max(maxResult, ((arr.length - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
         }
+        System.out.println(maxResult);
     }
 }
