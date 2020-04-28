@@ -3,7 +3,7 @@ package parseData;
 import java.util.ArrayList;
 
 public class PokedexObject {
-    private String id;
+    public String id;
     private String name;
     private String type = "";
     private ArrayList<Skill> skills = new ArrayList<>();

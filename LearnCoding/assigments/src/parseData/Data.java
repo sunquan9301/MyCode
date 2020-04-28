@@ -7,14 +7,27 @@ public class Data {
     public static final String BASE_STATS = "Base Stats.csv";
     public static final String MOVE_LIST = "Move List.csv";
     public static final String POKEDEX = "Pokedex.txt";
+    public static ArrayList<BaseStatsObject> baseStats;
+    public static ArrayList<MoveListObject> moveLists;
+    public static ArrayList<PokedexObject> pokedexs;
 
     public static void main(String[] args) {
-        ArrayList<BaseStatsObject> baseStats = parseBaseStatsData(BASE_STATS);
-        ArrayList<MoveListObject> moveLists = parseMoveListData(MOVE_LIST);
-        ArrayList<PokedexObject> pokedexs = parsePokedexData(POKEDEX);
-
+        baseStats = parseBaseStatsData(BASE_STATS);
+        moveLists = parseMoveListData(MOVE_LIST);
+        pokedexs = parsePokedexData(POKEDEX);
 
     }
+
+    private static PokedexObject findPokedById(String id){
+        for(PokedexObject po:pokedexs){
+            if(po.id.equals(id)){
+                return po;
+            }
+        }
+        return null;
+    }
+
+
 
     private static ArrayList<PokedexObject> parsePokedexData(String path) {
         ArrayList<PokedexObject> data = new ArrayList<>();

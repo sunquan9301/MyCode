@@ -44,7 +44,8 @@ void Main::start()
             in >> v;
             in >> m;
             graph.init(v, m);
-            while (!in.eof())
+            int i=0;
+            while (i<m)
             {
                 int v, m;
                 double weight;
@@ -52,6 +53,7 @@ void Main::start()
                 in >> m;
                 in >> weight;
                 graph.addEdge(v, m, weight);
+                i++;
             }
         }
         else if (command.compare("W") == 0)

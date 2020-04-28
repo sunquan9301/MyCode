@@ -40,7 +40,7 @@ public class NimPlayer {
     }
 
     public String toRankString() {
-        return (playGameCount == 0 ? "0" : (wonGameCount * 100 / playGameCount)) + "%" + " | "
+        return (playGameCount == 0 ? "0" : (int)((wonGameCount * 100f / playGameCount)+0.5)) + "%" + " | "
                 + (playGameCount < 10 ? ("0" + playGameCount) : (playGameCount + "")) + " | "
                 + givenName + " " + familyName;
     }
