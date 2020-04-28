@@ -1,14 +1,14 @@
-package NimGame;
+package NimGame;//username: zhihangy   student ID: 1050720
 
 public class NimPlayer {
-    //protected  修饰符 package可见
-    protected String userName;
-    protected String familyName;
-    protected String givenName;
-    protected int playGameCount;
-    protected int wonGameCount;
+    
+    public String userName;
+    public String familyName;
+    public String givenName;
+    public int playGameCount;
+    public int wonGameCount;
 
-    //构造函数
+    //constructor
     public NimPlayer(String userName, String givenName, String familyName) {
         this.userName = userName;
         this.givenName = givenName;
@@ -25,7 +25,7 @@ public class NimPlayer {
         this.familyName = familyName;
     }
 
-    //重写toString 返回一个字符串
+    //rewrite toString method to return a string
     @Override
     public String toString() {
         return userName + "," + givenName + "," + familyName + "," + playGameCount + " games," + wonGameCount + " wins";
@@ -41,7 +41,7 @@ public class NimPlayer {
 
     public String toRankString() {
         return (playGameCount == 0 ? "0" : (int)((wonGameCount * 100f / playGameCount)+0.5)) + "%" + " | "
-                + (playGameCount < 10 ? ("0" + playGameCount) : (playGameCount + "")) + " | "
+                + (playGameCount < 10 ? ("0" + playGameCount + " games") : (playGameCount + " games")) + " | "
                 + givenName + " " + familyName;
     }
 }

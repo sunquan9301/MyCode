@@ -1,28 +1,50 @@
-package NimGame;
+package NimGame;//username: zhihangy   student ID: 1050720
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
 public class Nimsys {
-    private Scanner in;
-    //所有players
-    private ArrayList<NimPlayer> allNimPlayer = new ArrayList<>();
+    private NimGame nimGame;
+    protected Scanner input = new Scanner(System.in);
+    protected ArrayList<NimPlayer> allNimPlayer = new ArrayList<>();
 
-    public Nimsys(Scanner in) {
-        this.in = in;
+
+    public static void main(String[] args) {
+        Nimsys nimsys = new Nimsys();
+        nimsys.nimGame = new NimGame();
+        nimsys.start();
     }
-    //根据名字找到对应的player
-    public NimPlayer findPlayerByName(String userName) {
-        for (NimPlayer nimPlayer : allNimPlayer) {
-            if (nimPlayer.userName.equals(userName))
-                return nimPlayer;
+
+    private void start() {
+        System.out.println("Welcome to Nim");
+        //while processing, exceptions that may be thrown when cache scanner readLine
+        while (true) {
+            try {
+                System.out.println("");
+                System.out.print("$");
+                String command = input.nextLine();
+                doActionForCommand(command);
+            } catch (IllegalArgumentException e) {
+                //Interrupt the program by throwing an exception
+                break;
+            }
         }
-        return null;
+        //call close method
+        try {
+            if (input != null) {
+                input.close();
+            }
+        } catch (Exception e) {
+
+        }
     }
 
+
+    //determine what command need to execute
     public void doActionForCommand(String command) {
-        if (command.startsWith("addplayer")) doActionForAddPlayer(command);
+        if (command.startsWith("startgame")) nimGame.doActionForStartGame(command, allNimPlayer, input);
+        else if (command.startsWith("addplayer")) doActionForAddPlayer(command);
         else if (command.startsWith("removeplayer")) doActionForRemovePlayer(command);
         else if (command.startsWith("editplayer")) doActionForEditPlayer(command);
         else if (command.startsWith("resetstats")) doActionForResetPlayerStats(command);
@@ -32,25 +54,25 @@ public class Nimsys {
         else System.out.println("Please input correct command.");
     }
 
+    //rank the player
     private void doActionForRankingPlayer(String command) {
         String[] param = command.split(" ");
         if (param.length > 2) {
-            System.out.println("Please input correct syntax for rankings [asc|desc]");
+            System.out.println("Please input correct syntax for rankings");
             return;
         }
         if (param.length == 2) {
             String order = param[1];
             //check if it is asc or desc
             if (!order.equals("asc") && !order.equals("desc")) {
-                System.out.println("Please input correct syntax for rankings [asc|desc]");
+                System.out.println("Please input correct syntax for rankings");
                 return;
             }
             if (order.equals("asc")) {
-                //the sort belongs to arraylist's api. Comparator is userd to compare between two object great -> positive equal->zero small->negative
                 allNimPlayer.sort(new Comparator<NimPlayer>() {
                     @Override
                     public int compare(NimPlayer o1, NimPlayer o2) {
-                        if (o1.wonPercent() == o2.wonPercent()) return 0;
+                        if (o1.wonPercent() == o2.wonPercent()) return o1.userName.compareTo(o2.userName);
                         if (o1.wonPercent() < o2.wonPercent()) return -1;
                         return 1;
                     }
@@ -59,7 +81,7 @@ public class Nimsys {
                 allNimPlayer.sort(new Comparator<NimPlayer>() {
                     @Override
                     public int compare(NimPlayer o1, NimPlayer o2) {
-                        if (o1.wonPercent() == o2.wonPercent()) return 0;
+                        if (o1.wonPercent() == o2.wonPercent()) return o1.userName.compareTo(o2.userName);
                         if (o1.wonPercent() < o2.wonPercent()) return 1;
                         return -1;
                     }
@@ -69,7 +91,7 @@ public class Nimsys {
             allNimPlayer.sort(new Comparator<NimPlayer>() {
                 @Override
                 public int compare(NimPlayer o1, NimPlayer o2) {
-                    if (o1.wonPercent() == o2.wonPercent()) return 0;
+                    if (o1.wonPercent() == o2.wonPercent()) return o1.userName.compareTo(o2.userName);
                     if (o1.wonPercent() < o2.wonPercent()) return 1;
                     return -1;
                 }
@@ -80,11 +102,11 @@ public class Nimsys {
 
     }
 
-
+    //display the player
     private void doActionForDisplayPlayer(String command) {
         String[] param = command.split(" ");
         if (param.length > 2) {
-            System.out.println("Please input correct syntax for displayplayer [username]");
+            System.out.println("Please input correct syntax for displayplayer");
             return;
         } else if (param.length == 2) {
             boolean isExist = false;
@@ -101,10 +123,11 @@ public class Nimsys {
         }
     }
 
+    //reset the player statistics
     private void doActionForResetPlayerStats(String command) {
         String[] param = command.split(" ");
         if (param.length > 2) {
-            System.out.println("Please input correct syntax for reseetstats [username]");
+            System.out.println("Please input correct syntax for reset statistics");
             return;
         } else if (param.length == 2) {
             boolean isEdit = false;
@@ -118,7 +141,7 @@ public class Nimsys {
         } else if (param.length == 1) {
             System.out.println("Are you sure you want to reset all player statistics?(y/n)");
             while (true) {
-                String opt = in.nextLine().trim();
+                String opt = input.nextLine();
                 if (opt.equals("y")) {
                     for (NimPlayer nimPlayer : allNimPlayer) {
                         nimPlayer.resetStat();
@@ -135,12 +158,12 @@ public class Nimsys {
     private void doActionForEditPlayer(String command) {
         String[] param = command.split(" ");
         if (param.length != 2) {
-            System.out.println("Please input correct syntax for editplayer[editplayer username,new_family_name,new_given_name]");
+            System.out.println("Please input correct syntax for edit player");
             return;
         }
         String[] names = param[1].split(",");
         if (names.length != 3) {
-            System.out.println("Please input correct syntax for editplayer[editplayer username,new_family_name,new_given_name]");
+            System.out.println("Please input correct syntax for edit player");
             return;
         }
         boolean isExist = false;
@@ -156,7 +179,7 @@ public class Nimsys {
     private void doActionForRemovePlayer(String command) {
         String[] param = command.split(" ");
         if (param.length > 2) {
-            System.out.println("Please input correct syntax for removePlayer[removePlayer [username]");
+            System.out.println("Please input correct syntax for removePlayer");
             return;
         } else if (param.length == 2) {
             if (!removePlayer(param[1])) {
@@ -166,7 +189,7 @@ public class Nimsys {
         } else if (param.length == 1) {
             System.out.println("Are you sure you want to remove all players? (y/n)");
             while (true) {
-                String opt = in.nextLine().trim();
+                String opt = input.nextLine().trim();
                 if (opt.equals("y")) {
                     allNimPlayer.clear();
                     break;
@@ -205,12 +228,12 @@ public class Nimsys {
     private void doActionForAddPlayer(String command) {
         String[] param = command.split(" ");
         if (param.length != 2) {
-            System.out.println("Please input correct syntax for addplayer[addplayer username,family_name,given_name]");
+            System.out.println("Please input correct syntax for addplayer");
             return;
         }
         String[] names = param[1].split(",");
         if (names.length != 3) {
-            System.out.println("Please input correct syntax for addplayer[addplayer username,family_name,given_name]");
+            System.out.println("Please input correct syntax for addplayer");
             return;
         }
         if (isContainsPlayer(names[0])) {
