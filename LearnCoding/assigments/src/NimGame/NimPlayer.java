@@ -1,7 +1,7 @@
 package NimGame;//username: zhihangy   student ID: 1050720
 
 public class NimPlayer {
-    
+
     public String userName;
     public String familyName;
     public String givenName;
@@ -32,6 +32,7 @@ public class NimPlayer {
     }
 
     public double wonPercent() {
+        if (playGameCount == 0) return 0;
         return wonGameCount * 1.0f / playGameCount;
     }
 
@@ -40,7 +41,7 @@ public class NimPlayer {
     }
 
     public String toRankString() {
-        return (playGameCount == 0 ? "0" : (int)((wonGameCount * 100f / playGameCount)+0.5)) + "%" + " | "
+        return (playGameCount == 0 ? "0" : (int) ((wonGameCount * 100f / playGameCount) + 0.5)) + "%" + " | "
                 + (playGameCount < 10 ? ("0" + playGameCount + " games") : (playGameCount + " games")) + " | "
                 + givenName + " " + familyName;
     }

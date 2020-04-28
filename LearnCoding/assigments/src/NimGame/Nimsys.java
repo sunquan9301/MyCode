@@ -118,6 +118,12 @@ public class Nimsys {
             }
             if (!isExist) System.out.println("The player does not exist.");
         } else if (param.length == 1) {
+            allNimPlayer.sort(new Comparator<NimPlayer>() {
+                @Override
+                public int compare(NimPlayer o1, NimPlayer o2) {
+                    return o1.userName.compareTo(o2.userName);
+                }
+            });
             for (NimPlayer player : allNimPlayer)
                 System.out.println(player.toString());
         }

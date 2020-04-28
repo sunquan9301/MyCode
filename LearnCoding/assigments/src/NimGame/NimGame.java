@@ -103,6 +103,7 @@ public class NimGame {
                 else player1.wonGameCount = player1.wonGameCount + 1;
                 break;
             }
+            isFirstPlayer = !isFirstPlayer;
         }
     }
 }
