@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f2b21e7-078d-4073-82ca-633f932f5fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/demo/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assigments/src/assignment3/Reflection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/src/assignment3/Reflection.txt" afterDir="false" />
@@ -21,127 +22,68 @@
     <favorites_list name="Algorithms" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7815534">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/AAddB/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/NimPlayer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/NimGame.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="91">
-                  <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/TsinghuaAlgorithmsTrain.iml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/Nimsys.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-541">
-                  <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-                  <folding>
-                    <element signature="e#4918#4919#0" expanded="true" />
-                    <element signature="e#4999#5000#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/out7">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-548" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/in7">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#426#435#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/in7">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/demo/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
+              <folding>
+                <element signature="e#32085#32086#0" expanded="true" />
+                <element signature="e#32120#32121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlin/src/coroutine/BuildingChannelProducers.kt" />
-        <option value="$PROJECT_DIR$/kotlin/src/coroutine/ChannelBasics.kt" />
         <option value="$PROJECT_DIR$/kotlin/src/coroutine/Pipelines.kt" />
         <option value="$PROJECT_DIR$/kotlin/src/coroutine/FanOut.kt" />
         <option value="$PROJECT_DIR$/kotlin/src/coroutine/FanIn.kt" />
@@ -243,14 +183,16 @@
         <option value="$PROJECT_DIR$/assigments/src/NimGame/NimPlayer.java" />
         <option value="$PROJECT_DIR$/assigments/src/NimGame/NimGame.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java" />
+        <option value="$PROJECT_DIR$/Java/src/demo/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-36" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1073" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -277,6 +219,20 @@
               <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
               <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MaxRect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="StackSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,12 +292,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Data" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parseData.Data" />
-      <module name="assigments" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.HelloWorld" />
+      <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parseData.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,14 +313,14 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AAddB.Main" />
+      <option name="MAIN_CLASS_NAME" value="MaxRect.Main" />
       <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackSort.Main" />
+      <option name="MAIN_CLASS_NAME" value="AAddB.Main" />
       <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -379,6 +335,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackSort.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -444,19 +407,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Data" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.MainCalculatorApp" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Nimsys" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Nimsys" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Data" />
       </list>
     </recent_temporary>
   </component>
@@ -474,9 +437,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-36" y="23" width="1412" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.26323318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.2189781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,14 +448,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5018657" side_tool="true" weight="0.26118857" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49570817" weight="0.32771084" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8133047" visible="true" weight="0.41686746" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49499285" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8116788" visible="true" weight="0.46878982" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.57081544" weight="0.48795182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4892704" weight="0.036144577" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.18669528" side_tool="true" visible="true" weight="0.41686746" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48783976" weight="0.30722892" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.18832117" side_tool="true" visible="true" weight="0.46878982" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4806139" weight="0.30547947" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -954,30 +918,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlin/src/coroutine/BuildingChannelProducers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#19#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/assign/Exercise2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/assign/Exercise3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assigments/src/exam/WriteFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1238,32 +1178,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/out7">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/AAddB/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548" />
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/NimPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
+        <state relative-caret-position="495">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/in7">
+    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/NimGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/Nimsys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+        <state relative-caret-position="1230">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
           <folding>
-            <element signature="e#4918#4919#0" expanded="true" />
-            <element signature="e#4999#5000#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1275,47 +1209,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/NimGame.java">
+    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/Nimsys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="390">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#4999#5000#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/AAddB/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/out7">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="435">
           <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assigments/src/NimGame/in7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/demo/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
+          <folding>
+            <element signature="e#32085#32086#0" expanded="true" />
+            <element signature="e#32120#32121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#423#432#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="450">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
