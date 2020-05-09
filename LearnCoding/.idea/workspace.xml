@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f2b21e7-078d-4073-82ca-633f932f5fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/src/CompareHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/src/Compute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/src/Deserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRedRect/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/queue/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRedRect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/src/assignment3/Reflection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/src/assignment3/Reflection.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,112 +24,38 @@
     <favorites_list name="Algorithms" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/demo/HelloWorld.java">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Stack/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="24" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/queue/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#423#432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assigments/src/Deserialization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assigments/src/CompareHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assigments/src/Compute.java">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+        <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/search/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="764" column="26" selection-start-line="764" selection-start-column="26" selection-end-line="764" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
-              <folding>
-                <element signature="e#32085#32086#0" expanded="true" />
-                <element signature="e#32120#32121#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-95" />
           </provider>
         </entry>
       </file>
@@ -183,13 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlin/src/coroutine/ChannelsAreFair.kt" />
-        <option value="$PROJECT_DIR$/kotlin/src/coroutine/TickerChannels.kt" />
-        <option value="$PROJECT_DIR$/kotlin/src/coroutine/Flows.kt" />
-        <option value="$PROJECT_DIR$/assigments/src/assign200471302/FullSceneException.java" />
-        <option value="$PROJECT_DIR$/assigments/src/assign200471302/NoSuchNodeException.java" />
-        <option value="$PROJECT_DIR$/assigments/src/assign200471302/QuitAdventureException.java" />
-        <option value="$PROJECT_DIR$/assigments/src/assign200471302/SceneNode.java" />
         <option value="$PROJECT_DIR$/assigments/src/assign200471302/SceneTree.java" />
         <option value="$PROJECT_DIR$/assigments/src/assign200471302/AdventureDesigner.java" />
         <option value="$PROJECT_DIR$/Java/src/javabasic/EqualMethod.java" />
@@ -229,18 +150,25 @@
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java" />
         <option value="$PROJECT_DIR$/Java/src/demo/HelloWorld.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java" />
-        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" />
         <option value="$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/assigments/src/Deserialization.java" />
         <option value="$PROJECT_DIR$/assigments/src/CompareHandler.java" />
         <option value="$PROJECT_DIR$/assigments/src/Compute.java" />
+        <option value="$PROJECT_DIR$/assigments/src/exam2/Compute.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRedRect/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main1.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRedRect/Main1.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Stack/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/queue/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BST.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="367" />
+    <option name="x" value="526" />
     <option name="y" value="23" />
-    <option name="width" value="1073" />
+    <option name="width" value="901" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -250,6 +178,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,19 +189,40 @@
             <path>
               <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="assigments" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="assigments" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="algs4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,22 +238,8 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assigments" />
-      <recent name="$PROJECT_DIR$/assigments/src" />
-      <recent name="$PROJECT_DIR$/Java/src/jni" />
-    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="basic" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="tutorial7" />
-      <recent name="parseData" />
-      <recent name="assign" />
-      <recent name="fourques" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assigments/src/NimGame" />
@@ -311,6 +247,20 @@
       <recent name="$PROJECT_DIR$/assigments/src/tutorial7" />
       <recent name="$PROJECT_DIR$/assigments/src" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MaxRedRect" />
+      <recent name="" />
+      <recent name="tutorial7" />
+      <recent name="parseData" />
+      <recent name="assign" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assigments" />
+      <recent name="$PROJECT_DIR$/assigments/src" />
+      <recent name="$PROJECT_DIR$/Java/src/jni" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -325,29 +275,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.HelloWorld" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.BST">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BST" />
       <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxRect.Main" />
+      <option name="MAIN_CLASS_NAME" value="Stack.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxRedRect.Main1" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.Main" />
       <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -441,19 +392,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Nimsys" />
+      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.Nimsys" />
+      <item itemvalue="Application.BST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BST" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Nimsys" />
       </list>
     </recent_temporary>
   </component>
@@ -471,10 +422,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="522" y="79" width="1073" height="877" extended-state="0" />
+    <frame x="526" y="23" width="901" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.29097962" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.06169965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,14 +433,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5018657" side_tool="true" weight="0.26118857" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49499285" weight="0.32771084" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8098933" weight="0.34012738" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.57081544" weight="0.48795182" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4919355" weight="0.32751092" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80582523" weight="0.4254777" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5692666" visible="true" weight="0.31847134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76915616" weight="0.34140128" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.19010669" side_tool="true" visible="true" weight="0.34012738" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76721627" weight="0.04379562" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4307334" side_tool="true" visible="true" weight="0.31847134" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4806139" weight="0.30547947" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -878,6 +829,12 @@
           <properties />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BST.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
           <line>914</line>
@@ -952,47 +909,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assigments/src/assign/additionQues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt" />
-    <entry file="file://$PROJECT_DIR$/assigments/src/assign/Exercise1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/assign/Exercise4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pokedex.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/Cycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11280">
@@ -1247,14 +1163,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
-            <element signature="e#32085#32086#0" expanded="true" />
-            <element signature="e#32120#32121#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assigments/src/exam2/CompareHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assigments/src/exam2/Compute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10965">
+          <caret line="764" column="26" selection-start-line="764" selection-start-column="26" selection-end-line="764" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1265,62 +1211,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="11925">
+          <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#432#0" expanded="true" />
+            <element signature="e#32085#32086#0" expanded="true" />
+            <element signature="e#32120#32121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/assigments/src/exam2/Deserialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/com/sun/corba/se/impl/orbutil/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRedRect/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRedRect/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/queue/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/Deserialization.java">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Stack/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/search/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="764" column="26" selection-start-line="764" selection-start-column="26" selection-end-line="764" selection-end-column="26" />
-        </state>
+        <state relative-caret-position="-95" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/CompareHandler.java">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/Compute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
