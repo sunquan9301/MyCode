@@ -1,0 +1,108 @@
+Flying to Wonderland(){
+    Binary SEM broadingSignal= 0;
+    Binary SEM disembarkSignal = 0;
+    Binary SEM zone1 = 0;
+    Binary SEM zone2 = 0;
+    Binary SEM zone3 = 0;
+    Counting SEM numPassengers = 30;
+    Counting SEM groupNum = 4;
+    Counting SEM counterNum = 3;
+    Counting SEM disembarkCount = 1;
+    Binary SEM PassengersDisembark = 1;
+
+passenger(){
+    sleep(random_time); //
+    arrival to airport;
+    wait();// wait for check in
+    P(counterNum);
+    receive Boarding pass;
+    V(counterNum);
+    wait();// for board
+    if(broadingSignal == 0){
+        //arrive after the announcement that door have closed;
+        rebook their flight;
+        terminate();
+    }
+    zoneNum = getZoneNum();
+    P(zoneNum);
+    boarding();
+    V(zoneNum);
+    P(groupNum);
+    enter the plane;
+    stow belongings and take seats;
+    V(groupNum);
+    wait(); //for the flight to destination
+    seatNum = getSeatNum();
+    passengerNum = getSeatNum();
+    while(true){
+        P(PassengersDisembark);
+        if(disembarkCount == seatNum){
+            leave the plane();
+            Msg("Passenger-"+passengerNum+": is in seat "+seatNum+" and departs the plane");
+            disembarkCount++;
+            V(PassengersDisembark);
+            break;
+        }else{
+            V(PassengersDisembark)
+        }
+    }
+    terminate();
+}
+
+kiosk-clerk(){
+    while(true){
+        P(numPassengers)
+        int seatNum = Math.random()*30+1;//generate random seat(1-30)
+        int zoneNum = (seatNum-1)/10+1;
+        assign boarding pass to passenger;
+        Msg("Passenger-"+(numPassengers+1)+": seatNum is "+seatNum+" zoneNum is "+zoneNum);
+        if(numPassengers == 0) break;
+    }
+    terminate();
+}
+flight attendant(){
+    receiveBoardingSignal(); //
+    P(broadingSignal);
+    V(zone1)
+    call passengers of zone1 to board;
+    Passengers of zone1 complete board;
+    P(zone1)
+    V(zone2)
+    call passengers of zone2 to board;
+    Passengers of zone2 complete board;
+    P(zone2)
+    V(zone3)
+    call passengers of zone3 to board;
+    Passengers of zone3 complete board;
+    P(zone3)
+     //
+    V(broadingSignal);
+    announce to closed plane's door;
+    wait()// for plane landing;
+    receiveDisembarkSignal();
+    P(disembarkSignal);
+    all passengers have leaved;
+    V(disembarkSignal);
+    clean the aircraft;
+    terminate();
+}
+
+clock threads(){
+    sleep(fixed_time);
+    wait() //The Start Of Boarding Process;
+    V(broadingSignal);
+    signals(); //the flight attendant to start the boarding process;
+    sleep(fixed_time);
+    complete the boarding process;
+    P(broadingSignal);
+    sleep(fixed_time);
+    wait() // disembark the plane;
+    V(disembarkSignal);
+    signals() // the flight attendant to disembark the plane;
+    complete disembark the plane;
+    P(disembarkSignal);
+    terminate();
+}
+
+}
+
