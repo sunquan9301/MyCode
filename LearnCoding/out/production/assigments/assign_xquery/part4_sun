@@ -1,12 +1,0 @@
-SELECT ?series
-WHERE {  
-    ?series series:network ?network .
-    FILTER regex(str(?network), "*(\"Netflix\"@en|\"Amazon Prime\"@en|\"AppleTV\"@en)*") .
-}  
-
-SELECT ?c
-WHERE {
-    ?t <#hasName> ?c .
-    ?t <#hasValue> ?f .
-    FILTER (?f > 1000) .
-}

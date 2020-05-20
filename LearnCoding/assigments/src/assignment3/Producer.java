@@ -1,7 +1,7 @@
 package assignment3;
 
 /**
- * produce quest in quest queue
+ * produce quest in quest Queue
  */
 public class Producer extends Thread {
     private Agenda agenda;

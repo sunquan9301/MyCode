@@ -21,7 +21,7 @@ public class Agenda {
     static int NO_QUEST = 0x2002;
     static int COMPLETE_QUEST = 0x2003;
 
-    //the quest id for queue
+    //the quest id for Queue
     private int questId = 2;
 
     // a variable to deceide if king in hall
@@ -40,7 +40,7 @@ public class Agenda {
 
     //new quest Queue
     private ArrayList<Quest> newQuestQueue = new ArrayList<>();
-    //complete quest queue
+    //complete quest Queue
     private ArrayList<Quest> completeQuestQueue = new ArrayList<>();
     // a array to record the state of knights like {OUT_GREATE_HALL, NO_QUEST}
     private int[][] knightStates;
@@ -255,7 +255,7 @@ public class Agenda {
     }
 
     public void removeComplete() {
-        //the completed quest will be added in complete quest queue
+        //the completed quest will be added in complete quest Queue
         Quest completeQuest;
         synchronized (newQuestQueue) {
             Iterator<Quest> iterator = newQuestQueue.iterator();

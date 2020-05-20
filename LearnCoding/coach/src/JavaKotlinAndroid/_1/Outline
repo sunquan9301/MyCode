@@ -1,0 +1,87 @@
+第一次课
+一.Abstraction, ADT, Data Type, Type System, Object-Orient
+ a.Data Type
+    Definition:
+        1.an attribute of data which tells the compiler or interpreter how the programmer intends to user the data.
+        2.operation, the opt that can be done on the data, a set of values from which an expression may take its values.
+        3.primitive type: byte, short, int, long, float, double, char, string
+        4.reference type: arr, object, class...
+    With type systems, type safety.
+        5.special : Unit void null
+
+
+ b.Classes of data types
+    Primitive data types
+        1.basic type. Most laanguages allow more complicated composite types to be recursively constucted
+                      starting from basic types.
+        2.build-in type: provides built-in support.
+    Composite types: more one primitive type
+        list, arr, map
+
+ c.Type system (Generate, template)
+    Definition:
+        - logical system comprising a set of rules that assigns a property called a type to the various constructs of a computer program
+     such as variables, expressions, functions or modules.
+        - 包含了一组规则
+        - 为程序里不同的变量、表达式、函数等赋予一种类型属性
+
+    Purpose:
+        - The main purpose of a type system is to reduce possibilities for bugs** in computer programs **by defining interfaces between different parts of a computer program**, and then **checking that the parts have been connected in a consistent way.
+        - 降低bug
+        - 规范不同接口间调用类型的一致性
+
+    类型系统通过类型检查来保障程序代码满足一系列的类型一致性规则，因此来确保程序的正确性
+
+    “python 有泛型,不过 python 类型系统非常差火,由于它是偏向于运行时检查的,IDE 支持不起来”
+
+    Type Check
+
+ d.Abstraction: 高内聚，低耦合，设计模式 [设计模式, 大话设计模式...]
+
+ e.ADT
+    - class of objects whose logical behavior is defined by a set of values and a set of operations
+    - 软件设计上：只研究和使用它的结构而不考虑它的实现细节。
+
+    ADT 抽象数据类型名
+    {
+    Data:
+    数据元素之间逻辑关系的定义；
+    Operation:
+    操作1；
+    操作2；
+    ...
+    }
+
+    data structure{
+
+    }
+    class
+
+ f.OOP Object-oriented programming : 抽象，封装，多态；
+    - https://zhuanlan.zhihu.com/p/28427324
+    - 面向接口
+
+ g.语言
+    解释 JavaScript, Perl Python BASIC ; ，编译（中间文件）:C++, Java, Kotlin
+    Java (https://en.wikipedia.org/wiki/Java_(programming_language))
+        - strongly typed language
+            If a language specification requires its typing rules strongly (i.e., more or less allowing only those automatic type conversions that do not lose information), one can refer to the process as strongly typed, if not, as weakly typed.
+        - statically typed language
+
+    Kotlin(https://en.wikipedia.org/wiki/Kotlin_(programming_language))
+        is a cross-platform, statically typed, general-purpose programming language with type inference.
+
+    Python
+
+ 10.Java (java 基础，java面向对象, java多线程, java虚拟机, java库, java泛型, JNI, javaX, applet)
+    1.安装JDK, JRE
+
+
+数据抽象(),数据抽象类型(Abstract Data Type),类型系统(Type System)
+
+
+
+
+homework
+    1.design model : 工厂，单例
+    2.安装好JDK, JRE, Intellij, AndroidStudio
