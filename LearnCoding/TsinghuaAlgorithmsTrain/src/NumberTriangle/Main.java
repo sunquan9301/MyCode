@@ -1,3 +1,5 @@
+package NumberTriangle;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -5,53 +7,25 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int n;
 
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         InputReader cin = new InputReader(inputStream);
-        n = cin.nextInt();
-        int[] vSet = new int[n + 1];
-        int[] wSet = new int[n + 1];
-        for (int i = 1; i <= n; i++) {
-            vSet[i] = cin.nextInt();
-            wSet[i] = cin.nextInt();
-        }
-
-        int q = cin.nextInt();
-        int[] qV = new int[q + 1];
-        int[] qIndex = new int[q + 1];
-        for (int i = 1; i <= q; i++) {
-            qV[i] = cin.nextInt();
-            qIndex[i] = cin.nextInt();
-        }
-
-        int[][] d = new int[5005][5005];
-        int[][] f = new int[5005][5005];
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < vSet[i]; ++j)
-                d[i][j] = d[i - 1][j];
-            for (int j = vSet[i]; j <= 5000; ++j) {
-                d[i][j] = Math.max(d[i - 1][j], d[i - 1][j - vSet[i]] + wSet[i]);
+        int n = cin.nextInt();
+        long[][] value = new long[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                value[i][j] = cin.nextInt();
             }
         }
-        for (int i = n; i >= 1; --i) {
-            for (int j = 0; j < vSet[i]; ++j)
-                f[i][j] = f[i + 1][j];
-            for (int j = vSet[i]; j <= 5000; ++j) {
-                f[i][j] = Math.max(f[i + 1][j], f[i + 1][j - vSet[i]] + wSet[i]);
-            }
+        for (int i = 1; i < n; i++)
+            for (int j = 0; j <= i; j++)
+                value[i][j] = j == 0 ? (value[i - 1][j] + value[i][j]) : (Math.max(value[i - 1][j], value[i - 1][j - 1]) + value[i][j]);
+        long result = 0;
+        for (int i = 0; i < n; i++) {
+            result = Math.max(result, value[n - 1][i]);
         }
-
-        for (int i = 1; i <= q; i++) {
-            int V = qV[i];
-            int x = qIndex[i];
-            int mx = 0;
-            for (int j = 0; j <= V; j++) {
-                mx = Math.max(mx, d[x - 1][j] + f[x + 1][V - j]);
-            }
-            System.out.println(mx);
-        }
+        System.out.println(result);
     }
 
     static class InputReader {

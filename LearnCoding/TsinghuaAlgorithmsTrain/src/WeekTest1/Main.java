@@ -77,18 +77,6 @@ public class Main {
         }
     }
 
-    static class Node {
-        int val;
-        Node pre;
-        Node next;
-
-        public Node(int val) {
-            this.val = val;
-            pre = this;
-            next = null;
-        }
-    }
-
     static class ArrayQueue {
         int head;
         int tail;

@@ -73,8 +73,11 @@
 
     Python
 
- 10.Java (java 基础，java面向对象, java多线程, java虚拟机, java库, java泛型, JNI, javaX, applet)
-    1.安装JDK, JRE
+ 10.Java (java 基础，java面向对象, java多线程, java虚拟机, java库, java泛型, JNI, Swing, javaFX, applet)
+    1.安装JDK, JRE,
+    2.javac javap:javap是jdk自带的反解析工具
+
+ 11.android studio demo;git gui, gitk; github
 
 
 数据抽象(),数据抽象类型(Abstract Data Type),类型系统(Type System)
@@ -83,5 +86,6 @@
 
 
 homework
-    1.design model : 工厂，单例
-    2.安装好JDK, JRE, Intellij, AndroidStudio
+    1.安装好JDK, JRE, Intellij, AndroidStudio
+    2.book: java specifical 1-5, java算法1.1 - 1.2: 习题， effective java 第三章
+

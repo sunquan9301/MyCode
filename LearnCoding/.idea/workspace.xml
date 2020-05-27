@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f2b21e7-078d-4073-82ca-633f932f5fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/DivideGroup/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Equator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MergeSort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Persimmon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/ReEncodeK/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/RoadUpdate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/template/std_io.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/python3_data_types.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Bag1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BigZhuanPan/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Chess/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/LowBounder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MinimumSwap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/NumberTriangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/SequenceCount/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/ShortestPath/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coach/src/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/java_demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coach/src/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coach/src/Ques2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coach/src/Weather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokedex.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Queue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/src/assignment3/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/src/assignment3/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/src/assignment3/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/src/assignment3/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinyG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline" beforeDir="false" afterPath="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,33 +37,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MergeSort/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="88" column="5" selection-start-line="49" selection-start-column="3" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
-                <element signature="e#2209#2210#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
-                <element signature="e#2428#2429#0" expanded="true" />
-                <element signature="e#2485#2486#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/DivideGroup/Main.java">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/NumberTriangle/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="12" column="55" selection-start-line="11" selection-start-column="7" selection-end-line="12" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Bag1/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="55" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,47 +76,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="454">
+              <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8535">
+              <caret line="604" column="11" selection-start-line="604" selection-start-column="11" selection-end-line="604" selection-end-column="11" />
+              <folding>
+                <element signature="e#22896#22897#0" expanded="true" />
+                <element signature="e#22925#22926#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68505">
-              <caret line="4986" selection-start-line="4986" selection-end-line="4986" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="1065">
+              <caret line="99" column="43" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/python3_data_types.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="66" column="5" selection-start-line="55" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Persimmon/Main.java">
+        <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/LowBounder/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="179" column="5" selection-start-line="140" selection-start-column="3" selection-end-line="179" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="44" column="5" selection-start-line="38" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -143,10 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create</find>
-      <find>continue</find>
-      <find>listOf</find>
-      <find>ReceiveChannel</find>
       <find>option</find>
       <find>addS</find>
       <find>addNew</find>
@@ -173,6 +192,10 @@
       <find>qp</find>
       <find>remove</find>
       <find>delMin</find>
+      <find>MaxPQ</find>
+      <find>MinPQ</find>
+      <find>println</find>
+      <find>throw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,24 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tinyG.txt" />
-        <option value="$PROJECT_DIR$/Book_Algorithms/src/graph/Cycle.java" />
-        <option value="$PROJECT_DIR$/assigments/src/tutorial7/MainCalculatorApp.java" />
-        <option value="$PROJECT_DIR$/assigments/src/assigment2/Ass2.java" />
-        <option value="$PROJECT_DIR$/assigments/src/parseData/PokedexObject.java" />
-        <option value="$PROJECT_DIR$/assigments/src/parseData/Data.java" />
-        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/AAddB/Main.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame1/26d155126c9938ffffb575c9ae97b3bb.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame1/NimPlayer.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame1/NimGame.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame1/Nimsys.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame/Nimsys.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame/NimPlayer.java" />
-        <option value="$PROJECT_DIR$/assigments/src/NimGame/NimGame.java" />
-        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/StackSort/Main.java" />
-        <option value="$PROJECT_DIR$/Java/src/demo/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MaxRect/Main.java" />
-        <option value="$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/assigments/src/Deserialization.java" />
         <option value="$PROJECT_DIR$/assigments/src/CompareHandler.java" />
         <option value="$PROJECT_DIR$/assigments/src/Compute.java" />
@@ -225,21 +230,39 @@
         <option value="$PROJECT_DIR$/coach/src/IndexMinPQ.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/RoadUpdate/Main.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/template/std_io.java" />
-        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Persimmon/Main.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MergeSort/Main.java" />
         <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/DivideGroup/Main.java" />
-        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" />
-        <option value="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline" />
         <option value="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline" />
+        <option value="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Demo.java" />
+        <option value="$PROJECT_DIR$/coach/src/Demo.java" />
+        <option value="$PROJECT_DIR$/coach/src/Ques2.java" />
+        <option value="$PROJECT_DIR$/coach/src/Ques5.java" />
+        <option value="$PROJECT_DIR$/coach/src/Store.java" />
+        <option value="$PROJECT_DIR$/coach/src/Application.java" />
+        <option value="$PROJECT_DIR$/coach/src/Ques1.java" />
+        <option value="$PROJECT_DIR$/coach/src/Mammal.java" />
+        <option value="$PROJECT_DIR$/coach/src/Weather.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BigZhuanPan/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Chess/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/SequenceCount/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MinimumSwap/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/LowBounder/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/ShortestPath/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/NumberTriangle/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Bag1/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java" />
+        <option value="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest2/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
+    <option name="x" value="329" />
     <option name="y" value="23" />
-    <option name="width" value="1196" />
-    <option name="height" value="877" />
+    <option name="width" value="951" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,25 +281,26 @@
             <path>
               <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="coach" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="coach" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnCoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="coach" type="462c0819:PsiDirectoryNode" />
+              <item name="TsinghuaAlgorithmsTrain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_1" type="462c0819:PsiDirectoryNode" />
+              <item name="WeekTest2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,15 +316,15 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assigments/src" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assigments" />
-      <recent name="$PROJECT_DIR$/Java/src/jni" />
-    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="basic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1" />
+      <recent name="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src" />
+      <recent name="$PROJECT_DIR$/assigments/src" />
+      <recent name="$PROJECT_DIR$/assigments" />
+      <recent name="$PROJECT_DIR$/assigments/src/NimGame" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="MaxRedRect" />
@@ -310,12 +333,12 @@
       <recent name="parseData" />
       <recent name="assign" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1" />
-      <recent name="$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assigments/src" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assigments" />
-      <recent name="$PROJECT_DIR$/assigments/src/NimGame" />
+      <recent name="$PROJECT_DIR$/Java/src/jni" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaKotlinAndroid._1.HelloWorld" />
       <module name="coach" />
@@ -352,7 +375,48 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReEncodeK.Main" />
+      <option name="MAIN_CLASS_NAME" value="Bag1.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestPath.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigZhuanPan.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReEncode.Main" />
+      <module name="TsinghuaAlgorithmsTrain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberTriangle.Main" />
       <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -401,54 +465,29 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="template.Main" />
-      <module name="TsinghuaAlgorithmsTrain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberBox.Main" />
+      <option name="MAIN_CLASS_NAME" value="LowBounder.Main" />
       <module name="TsinghuaAlgorithmsTrain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReEncode.Main" />
-      <module name="TsinghuaAlgorithmsTrain" />
+    <configuration name="Mammal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mammal" />
+      <module name="coach" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prog3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog3.Prog3" />
-      <module name="assigments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Prog3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Ques1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ques1" />
+      <module name="coach" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prog5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog5.Prog5" />
-      <module name="assigments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Prog5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Ques2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ques2" />
+      <module name="coach" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -501,15 +540,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Prog3" />
-      <item itemvalue="Application.Prog5" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Mammal" />
+      <item itemvalue="Application.Ques1" />
+      <item itemvalue="Application.Ques2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
@@ -540,10 +579,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="23" width="1196" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="329" y="23" width="951" height="867" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.19584055" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.0330033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,16 +589,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5018657" side_tool="true" weight="0.26118857" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.490701" weight="0.32738853" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78162915" weight="0.37834394" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5571227" weight="0.24458599" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48960137" weight="0.3270073" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.760274" weight="0.4064516" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5486409" weight="0.39490446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7469671" visible="true" weight="0.4165605" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25303292" side_tool="true" visible="true" weight="0.4165605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.74367434" visible="true" weight="0.42064515" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.25632563" side_tool="true" visible="true" weight="0.42064515" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49713877" weight="0.20254777" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47672778" weight="0.30318472" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47160244" weight="0.2997416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1350278" />
@@ -995,6 +1033,18 @@
           <properties />
           <option name="timeStamp" value="160" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/LowBounder/Main.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest2/Main.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
           <line>914</line>
@@ -1020,7 +1070,45 @@
     </SUITE>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>int a=5;
+a = a^2;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mid + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x &gt; value[mid]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Math.pow(5,2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>5 ^ 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>5^ 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(hi - mid) ^ 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>maxArr[i]</expression-string>
         <language-id>JAVA</language-id>
@@ -1036,197 +1124,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>((int) (deviation * 100f))/100</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((int) (deviation * 100))/100f</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((int) (deviation * 100))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((int) (deviation * 100))/ 100</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(int) (deviation * 100) / 100</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((int) deviation) * 100f / 100</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/search/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/v1_command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/v1_command/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/v1_command/LightOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BinaryTree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/NumberBox/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/v1_command/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/v1_command/RemoteControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assigments/src/sunq/Agenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/search/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/GradeSort/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="125" column="6" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/schemagen/xmlschema/Union.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Equator.java" />
-    <entry file="file://$PROJECT_DIR$/assigments/src/Prog5/Prog5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/IndexMinPQ.java" />
-    <entry file="file://$PROJECT_DIR$/coach/src/MinQP.java" />
-    <entry file="file://$PROJECT_DIR$/assigments/src/Prog5/MyStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/datastructure/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/KruskalMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/IndexMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="114" column="18" selection-end-line="397" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Equator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1304,24 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6882#6883#0" expanded="true" />
-            <element signature="e#6914#6915#0" expanded="true" />
-            <element signature="e#6950#6951#0" expanded="true" />
-            <element signature="e#6987#6988#0" expanded="true" />
-            <element signature="e#7020#7021#0" expanded="true" />
-            <element signature="e#7064#7065#0" expanded="true" />
-            <element signature="e#7097#7098#0" expanded="true" />
-            <element signature="e#7137#7138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1360,13 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="30" selection-start-line="29" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/ReEncodeK/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1377,6 +1252,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MergeSort/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -1407,17 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68505">
@@ -1425,13 +1291,231 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="81" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/Store.java" />
+    <entry file="file://$PROJECT_DIR$/coach/src/Ques1.java" />
+    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/Mammal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/Ques2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/BigZhuanPan/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Persimmon/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
+        <state relative-caret-position="589">
           <caret line="179" column="5" selection-start-line="140" selection-start-column="3" selection-end-line="179" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/datastructure/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/MinimumSwap/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="56" selection-start-line="9" selection-start-column="7" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Demo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/python3_data_types.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/IndexMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="114" column="18" selection-end-line="397" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/ShortestPath/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest2.java" />
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Chess/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/SequenceCount/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/NumberTriangle/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="55" selection-start-line="11" selection-start-column="7" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Bag1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="55" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8535">
+          <caret line="604" column="11" selection-start-line="604" selection-start-column="11" selection-end-line="604" selection-end-column="11" />
+          <folding>
+            <element signature="e#22896#22897#0" expanded="true" />
+            <element signature="e#22925#22926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/project/algs4.jar!/edu/princeton/cs/algs4/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="66" column="5" selection-start-line="55" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/LowBounder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="5" selection-start-line="38" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book_Algorithms/src/Sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1445,38 +1529,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/python3_data_types.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/Demo.java">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="454">
+          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
           <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/demo.java">
+    <entry file="file://$PROJECT_DIR$/TsinghuaAlgorithmsTrain/src/WeekTest2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coach/src/JavaKotlinAndroid/_1/Outline">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,3 +1,5 @@
+package Bag1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -5,53 +7,47 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int n;
-
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         InputReader cin = new InputReader(inputStream);
-        n = cin.nextInt();
+        int n = cin.nextInt();
+        int w = cin.nextInt();
+        int[] type = new int[n + 1];
         int[] vSet = new int[n + 1];
         int[] wSet = new int[n + 1];
         for (int i = 1; i <= n; i++) {
+            type[i] = cin.nextInt();
             vSet[i] = cin.nextInt();
             wSet[i] = cin.nextInt();
         }
-
-        int q = cin.nextInt();
-        int[] qV = new int[q + 1];
-        int[] qIndex = new int[q + 1];
-        for (int i = 1; i <= q; i++) {
-            qV[i] = cin.nextInt();
-            qIndex[i] = cin.nextInt();
-        }
-
-        int[][] d = new int[5005][5005];
-        int[][] f = new int[5005][5005];
+        int[][] vw = new int[n + 1][w + 1];
         for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < vSet[i]; ++j)
-                d[i][j] = d[i - 1][j];
-            for (int j = vSet[i]; j <= 5000; ++j) {
-                d[i][j] = Math.max(d[i - 1][j], d[i - 1][j - vSet[i]] + wSet[i]);
+            if (type[i] == 0) {
+                for (int j = 1; j <= w; j++) {
+                    vw[i][j] = Math.max(vw[i - 1][j], j - wSet[i] >= 0 ? (vw[i - 1][j - wSet[i]] + vSet[i]) : vw[i - 1][j]);
+                }
+            } else {
+                for (int j = 1; j <= w; j++) {
+                    int result = 0, count = 0;
+                    int tempW = j;
+                    while (tempW >= 0) {
+                        result = Math.max(result, vw[i - 1][tempW] + count * vSet[i]);
+                        tempW = tempW - wSet[i];
+                        count++;
+                    }
+                    vw[i][j] = result;
+                }
             }
         }
-        for (int i = n; i >= 1; --i) {
-            for (int j = 0; j < vSet[i]; ++j)
-                f[i][j] = f[i + 1][j];
-            for (int j = vSet[i]; j <= 5000; ++j) {
-                f[i][j] = Math.max(f[i + 1][j], f[i + 1][j - vSet[i]] + wSet[i]);
+        int result = 0;
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= w; j++) {
+//                System.out.print(vw[i][j] + "     ");
+                result = Math.max(result, vw[i][j]);
             }
+//            System.out.println();
         }
-
-        for (int i = 1; i <= q; i++) {
-            int V = qV[i];
-            int x = qIndex[i];
-            int mx = 0;
-            for (int j = 0; j <= V; j++) {
-                mx = Math.max(mx, d[x - 1][j] + f[x + 1][V - j]);
-            }
-            System.out.println(mx);
-        }
+        System.out.println(result);
     }
 
     static class InputReader {
