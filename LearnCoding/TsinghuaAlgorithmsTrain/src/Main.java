@@ -2,56 +2,55 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int n;
+
+    static int[] b = new int[6];
+    static int N = 21, mo = 23333;
+    static int[][][][][][] f = new int[N][N][N][N][N][6];
 
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         InputReader cin = new InputReader(inputStream);
-        n = cin.nextInt();
-        int[] vSet = new int[n + 1];
-        int[] wSet = new int[n + 1];
-        for (int i = 1; i <= n; i++) {
-            vSet[i] = cin.nextInt();
-            wSet[i] = cin.nextInt();
-        }
+        int m = cin.nextInt();
+        int[] a = new int[m];
+        for (int i = 0; i < m; i++) a[i] = cin.nextInt();
+        System.out.println(getAnswer(m, a));
 
-        int q = cin.nextInt();
-        int[] qV = new int[q + 1];
-        int[] qIndex = new int[q + 1];
-        for (int i = 1; i <= q; i++) {
-            qV[i] = cin.nextInt();
-            qIndex[i] = cin.nextInt();
-        }
+    }
 
-        int[][] d = new int[5005][5005];
-        int[][] f = new int[5005][5005];
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < vSet[i]; ++j)
-                d[i][j] = d[i - 1][j];
-            for (int j = vSet[i]; j <= 5000; ++j) {
-                d[i][j] = Math.max(d[i - 1][j], d[i - 1][j - vSet[i]] + wSet[i]);
-            }
-        }
-        for (int i = n; i >= 1; --i) {
-            for (int j = 0; j < vSet[i]; ++j)
-                f[i][j] = f[i + 1][j];
-            for (int j = vSet[i]; j <= 5000; ++j) {
-                f[i][j] = Math.max(f[i + 1][j], f[i + 1][j - vSet[i]] + wSet[i]);
-            }
-        }
+    public static int getAnswer(int m, int[] a) {
+        for (int i = 0; i < N; ++i)
+            for (int j = 0; j < N; ++j)
+                for (int k = 0; k < N; ++k)
+                    for (int l = 0; l < N; ++l)
+                        for (int p = 0; p < N; ++p)
+                            for (int q = 0; q < 6; ++q)
+                                f[i][j][k][l][p][q] = -1;
+        for (int i = 0; i < m; ++i)
+            b[a[i]]++;
 
-        for (int i = 1; i <= q; i++) {
-            int V = qV[i];
-            int x = qIndex[i];
-            int mx = 0;
-            for (int j = 0; j <= V; j++) {
-                mx = Math.max(mx, d[x - 1][j] + f[x + 1][V - j]);
-            }
-            System.out.println(mx);
-        }
+        return dp(b[1], b[2], b[3], b[4], b[5], 0);
+    }
+
+    static int dp(int a, int b, int c, int d, int e, int last) {
+        if ((a | b | c | d | e) == 0) return 1;
+        if (f[a][b][c][d][e][last] != -1) return f[a][b][c][d][e][last];
+        long ret = 0;
+        if (a != 0)
+            ret += (dp(a - 1, b, c, d, e, 1) * (a - (last == 2 ? 1 : 0)));
+        if (b != 0)
+            ret += (dp(a + 1, b - 1, c, d, e, 2) * (b - (last == 3 ? 1 : 0)));
+        if (c != 0)
+            ret += (dp(a, b + 1, c - 1, d, e, 3) * (c - (last == 4 ? 1 : 0)));
+        if (d != 0)
+            ret += (dp(a, b, c + 1, d - 1, e, 4) * (d - (last == 5 ? 1 : 0)));
+        if (e != 0)
+            ret += (dp(a, b, c, d + 1, e - 1, 5) * e);
+        return (int) (ret % mo);
+
     }
 
     static class InputReader {
