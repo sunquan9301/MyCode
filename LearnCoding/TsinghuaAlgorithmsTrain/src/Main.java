@@ -1,96 +1,82 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Main {
 
-    static int[] b = new int[6];
-    static int N = 21, mo = 23333;
-    static int[][][][][][] f = new int[N][N][N][N][N][6];
-
     public static void main(String[] args) {
-        InputStream inputStream = System.in;
-        InputReader cin = new InputReader(inputStream);
-        int m = cin.nextInt();
-        int[] a = new int[m];
-        for (int i = 0; i < m; i++) a[i] = cin.nextInt();
-        System.out.println(getAnswer(m, a));
-
+        Scanner cin = new Scanner(System.in);
+        int n = cin.nextInt();
+        int k = cin.nextInt();
+        int a1 = cin.nextInt();
+        int p = cin.nextInt();
+        int q = cin.nextInt();
+        int M = cin.nextInt();
+        long[] value = new long[n + 1];
+        value[1] = a1;
+        for (int i = 2; i <= n; i++) value[i] = (p * value[i - 1] + q) % M;
+        System.out.println(BFPRT(value, 1, n, k));
     }
 
-    public static int getAnswer(int m, int[] a) {
-        for (int i = 0; i < N; ++i)
-            for (int j = 0; j < N; ++j)
-                for (int k = 0; k < N; ++k)
-                    for (int l = 0; l < N; ++l)
-                        for (int p = 0; p < N; ++p)
-                            for (int q = 0; q < 6; ++q)
-                                f[i][j][k][l][p][q] = -1;
-        for (int i = 0; i < m; ++i)
-            b[a[i]]++;
-
-        return dp(b[1], b[2], b[3], b[4], b[5], 0);
-    }
-
-    static int dp(int a, int b, int c, int d, int e, int last) {
-        if ((a | b | c | d | e) == 0) return 1;
-        if (f[a][b][c][d][e][last] != -1) return f[a][b][c][d][e][last];
-        long ret = 0;
-        if (a != 0)
-            ret += (dp(a - 1, b, c, d, e, 1) * (a - (last == 2 ? 1 : 0)));
-        if (b != 0)
-            ret += (dp(a + 1, b - 1, c, d, e, 2) * (b - (last == 3 ? 1 : 0)));
-        if (c != 0)
-            ret += (dp(a, b + 1, c - 1, d, e, 3) * (c - (last == 4 ? 1 : 0)));
-        if (d != 0)
-            ret += (dp(a, b, c + 1, d - 1, e, 4) * (d - (last == 5 ? 1 : 0)));
-        if (e != 0)
-            ret += (dp(a, b, c, d + 1, e - 1, 5) * e);
-        return (int) (ret % mo);
-
-    }
-
-    static class InputReader {
-        BufferedReader reader;
-        StringTokenizer tokenizer;
-
-        private InputReader(InputStream stream) {
-            reader = new BufferedReader(new InputStreamReader(stream), 32768);
-            tokenizer = null;
+    public static long BFPRT(long a[], int l, int r, int id) {
+        if (r - l + 1 <= 5) {
+            insertSort(a, l, r);
+            return a[l + id - 1];
         }
+        int t = l - 1;
+        for (int st = l, ed; (ed = st + 4) <= r; st += 5) {
+            insertSort(a, st, ed);
+            t++;
+            swap(a, t, st + 2);
+        }
+        int pivotId = (l + t) >> 1;
+        BFPRT(a, l, t, pivotId - l + 1);
+        int m = partition(a, l, r, pivotId), cur = m - l + 1;
+        if (id == cur) return a[m];
+        else if (id < cur) return BFPRT(a, l, m - 1, id);
+        else return BFPRT(a, m + 1, r, id - cur);
+    }
 
-        private String next() {
-            while (tokenizer == null || !tokenizer.hasMoreTokens()) {
-                try {
-                    tokenizer = new StringTokenizer(reader.readLine());
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
+
+    public static int partition(long[] a, int l, int r, int pivotId) {
+        swap(a, pivotId, r);
+        int j = l - 1;
+        for (int i = l; i < r; i++) {
+            if (a[i] <= a[r]) {
+                j++;
+                swap(a, j, i);
             }
-            return tokenizer.nextToken();
         }
+        ++j;
+        swap(a, j, r);
+        return j;
+    }
 
-        private short nextShort() {
-            return Short.parseShort(next());
+    public static long calMidValue(long[] value, int lo, int hi) {
+        if (hi - lo + 1 <= 5) {
+            insertSort(value, lo, hi);
+            int mid = (lo + hi) / 2;
+            return value[mid];
         }
-
-        private int nextInt() {
-            return Integer.parseInt(next());
+        int t = lo - 1;
+        for (int i = lo; i <= hi - 4; i = i + 5) {
+            insertSort(value, i, i + 4);
+            t++;
+            swap(value, t, i + 2);
         }
+        return (lo + t) >> 1;
+    }
 
-        private long nextLong() {
-            return Long.parseLong(next());
-        }
-
-        private float nextFloat() {
-            return Float.parseFloat(next());
-        }
-
-        private double nextDouble() {
-            return Double.parseDouble(next());
+    public static void insertSort(long[] value, int lo, int hi) {
+        for (int i = lo + 1; i <= hi; i++) {
+            for (int j = i; j > lo && value[j] < value[j - 1]; j--) {
+                swap(value, j, j - 1);
+            }
         }
     }
+
+    public static void swap(long[] value, int p, int q) {
+        long temp = value[p];
+        value[p] = value[q];
+        value[q] = temp;
+    }
+
 }
