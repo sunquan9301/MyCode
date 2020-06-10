@@ -41,13 +41,13 @@ public class Main {
                 i++;
             } else {
                 int hi = arr[stack.pop()][col];
-//                System.out.println("hi = " + hi + ";right = " + i + ";left = " + (stack.isEmpty() ? -1 : stack.peek()) + ";rect = " + ((i - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
+//                System.out.println("hi = " + hi + ";right = " + i + ";left = " + (stack.isEmpty() ? -1 : stack.peek()) + ";Rect = " + ((i - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
                 maxResult = Math.max(maxResult, ((i - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
             }
         }
         while (!stack.isEmpty()) {
             int hi = arr[stack.pop()][col];
-//            System.out.println("hi = "+hi+";right = "+arr.length+";left = "+(stack.isEmpty() ? -1 : stack.peek())+";rect = "+((arr.length - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
+//            System.out.println("hi = "+hi+";right = "+arr.length+";left = "+(stack.isEmpty() ? -1 : stack.peek())+";Rect = "+((arr.length - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
             maxResult = Math.max(maxResult, ((arr.length - (stack.isEmpty() ? -1 : stack.peek()) - 1) * hi));
         }
         return maxResult;

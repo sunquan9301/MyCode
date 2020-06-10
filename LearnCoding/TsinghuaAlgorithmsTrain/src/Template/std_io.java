@@ -1,4 +1,4 @@
-package template;
+package Template;
 
 import java.io.*;
 import java.util.ArrayList;

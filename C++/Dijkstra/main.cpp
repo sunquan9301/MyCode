@@ -44,8 +44,8 @@ void Main::start()
             in >> v;
             in >> m;
             graph.init(v, m);
-            int i=0;
-            while (i<m)
+            int i = 0;
+            while (i < m)
             {
                 int v, m;
                 double weight;
@@ -90,7 +90,7 @@ void Main::start()
                     // sp.toString();
                     if (!sp.hassPathTo(targetVertice))
                     {
-                        cout << "Error: node" << targetVertice << " not reachable from node "<<sVertice<<endl;
+                        cout << "Error: node" << targetVertice << " not reachable from node " << sVertice << endl;
                     }
                     else
                     {
@@ -118,7 +118,8 @@ void Main::start()
 }
 int main()
 {
-    Main main;
-    main.start();
+    // Main main;
+    // main.start();
+    cout << "hello world" << endl;
     return 0;
 }

@@ -4,28 +4,30 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Main {
+    static Integer[] a;
 
     public static void main(String[] args) {
-        InputStream inputStream = System.in;
-        InputReader cin = new InputReader(inputStream);
-        int m = cin.nextInt();
-        int[] a = new int[m];
-        for (int i = 0; i < m; i++) a[i] = cin.nextInt();
-        int[] b = new int[6];
-        for (int i = 0; i < m; ++i) b[a[i]]++;
-        int[][][][][][] f = new int[21][21][21][21][21][6];
-        int N = 21;
-        for (int i = 0; i < N; ++i)
-            for (int j = 0; j < N; ++j)
-                for (int k = 0; k < N; ++k)
-                    for (int l = 0; l < N; ++l)
-                        for (int p = 0; p < N; ++p)
-                            for (int q = 0; q < 6; ++q)
-                                f[i][j][k][l][p][q] = -1;
-        System.out.println(dp(b[1], b[2], b[3], b[4], b[5], 0, f) % 23333);
+//        InputStream inputStream = System.in;
+//        InputReader cin = new InputReader(inputStream);
+//        int m = cin.nextInt();
+//        int[] a = new int[m];
+//        for (int i = 0; i < m; i++) a[i] = cin.nextInt();
+//        int[] b = new int[6];
+//        for (int i = 0; i < m; ++i) b[a[i]]++;
+//        int[][][][][][] f = new int[21][21][21][21][21][6];
+//        int N = 21;
+//        for (int i = 0; i < N; ++i)
+//            for (int j = 0; j < N; ++j)
+//                for (int k = 0; k < N; ++k)
+//                    for (int l = 0; l < N; ++l)
+//                        for (int p = 0; p < N; ++p)
+//                            for (int q = 0; q < 6; ++q)
+//                                f[i][j][k][l][p][q] = -1;
+//        System.out.println(dp(b[1], b[2], b[3], b[4], b[5], 0, f) % 23333);
 
     }
 

@@ -18,7 +18,7 @@
     Composite types: more one primitive type
         list, arr, map
 
- c.Type system (Generate, template)
+ c.Type system (Generate, Template)
     Definition:
         - logical system comprising a set of rules that assigns a property called a type to the various constructs of a computer program
      such as variables, expressions, functions or modules.

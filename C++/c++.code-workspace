@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "Dijkstra"
+		},
+		{
+			"path": "TShingHuaAlgorithm"
 		}
 	],
 	"settings": {
@@ -16,7 +19,9 @@
 			"vector": "cpp",
 			"ios": "cpp",
 			"new": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"sstream": "cpp",
+			"regex": "cpp"
 		}
 	}
 }
