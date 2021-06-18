@@ -1,4 +1,4 @@
-package datastructure;
+package Sort;
 
 public class MaxPQ {
     private int[] pq;

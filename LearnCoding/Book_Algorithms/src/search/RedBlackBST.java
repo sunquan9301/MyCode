@@ -33,7 +33,9 @@ public class RedBlackBST<K extends Comparable<K>, V>  extends BST<K,V> {
         x.N = node.N;
         node.N = size(node.left)+size(node.right)+1;
         return x;
+        synchronized ()
     }
+
 
     @Override
     public BSTNode put(BSTNode node, K key, V val) {

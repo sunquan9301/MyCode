@@ -59,4 +59,45 @@ public class MergeSort {
             else a[i] = temp[p++];
         }
     }
+
+    public void merge3(int[] a, int left, int middle, int right, int[] temp) {
+        for (int i = left; i <= right; i++)
+            temp[i] = a[i];
+        int p = left, q = middle + 1;
+        for (int i = left; i <= right; i++) {
+            if (p > middle) a[i] = temp[q++];
+            else if (q > right) a[i] = temp[p++];
+            else if (temp[p] > temp[q]) a[i] = temp[q++];
+            else a[i] = temp[p++];
+        }
+    }
+
+
+    public void mergeSortDemo(int[] aar, int left, int right, int[] temp) {
+        if (left > right) return;
+        int mid = left + (right - left) / 2;
+        mergeSortDemo(aar, left, mid, temp);
+        mergeSortDemo(aar, mid + 1, right, temp);
+        mergeDemo(aar, left, mid, right, temp);
+        int gap = 1;
+        int N = aar.length;
+        for (gap = 1; gap < N; gap += gap) {
+            for(int j = 0;j<N-gap;j+=gap+gap){
+                mergeDemo(aar,j,j+gap-1,Math.min(j+2*gap-1,N),temp);
+            }
+        }
+    }
+
+    public void mergeDemo(int[] arr, int left, int mid, int right, int[] temp) {
+        for (int i = left; i <= right; i++) {
+            temp[i] = arr[i];
+        }
+        int p = left, q = mid + 1;
+        for (int i = left; i <= right; i++) {
+            if (p > mid) arr[i] = temp[q++];
+            else if (q > right) arr[i] = temp[p++];
+            else if (temp[p] > temp[q]) arr[i] = temp[q++];
+            else arr[i] = temp[p++];
+        }
+    }
 }

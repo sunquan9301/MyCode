@@ -29,7 +29,14 @@ public class QuickSort {
         int mid = partion(a, left, right);
         quickSort(a, left, mid - 1);
         quickSort(a, mid + 1, right);
+//
+//        if(right<=left) return;
+//        int mid = partion(a,left,right);
+//        quickSort(a,left,mid);
+//        quickSort(a,mid+1,right);
+//
     }
+
 
     public int partion(int[] a, int left, int right) {
         int start = left + 1;
