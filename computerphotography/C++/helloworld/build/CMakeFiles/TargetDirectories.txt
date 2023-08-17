@@ -1,0 +1,3 @@
+/Users/sunquan/coding/computerphotography/C++/helloworld/build/CMakeFiles/rebuild_cache.dir
+/Users/sunquan/coding/computerphotography/C++/helloworld/build/CMakeFiles/edit_cache.dir
+/Users/sunquan/coding/computerphotography/C++/helloworld/build/CMakeFiles/opencv_demo.dir
