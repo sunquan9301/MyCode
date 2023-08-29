@@ -1,0 +1,12 @@
+1.1、计算机视觉
+1. 图像拼接
+2. 曝光补偿
+3. 图像融合
+4. 3D建模
+5. 运动补偿
+6. 人脸检测
+7. 视觉认证
+
+1.2 性能
+using Bayesian techniques, where applicable, to ensure robustness, and efficient search, minimization, and linear system solving algorithms to ensure efficiency
+
